@@ -1,0 +1,69 @@
+
+#####Advanced Python#########
+
+https://www.youtube.com/watch?v=KSiRzuSx120&list=PL7yh-TELLS1FuqLSjl5bgiQIEH25VEmIc
+
+#############################
+
+Link (code basics channel ) : https://www.youtube.com/watch?v=ttMX3Ns_0oY
+code basics - complete tutorial : https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
+edureka link (Inheritance) : https://www.edureka.co/blog/inheritance-in-python/
+
+
+Python debugger youtube link : https://www.youtube.com/watch?v=6KQ_h0XBmxk 
+
+Python Modules :
+o To know all python modules search for "python 3 module index" in google
+o None is an object in python
+
+Methods :
+1. If you define a method inside class then self should be given as parameter in the method.
+2. For static methods you don't need to give any first implicit parameter which is self
+
+Functions :
+1. By default functions return None object
+
+Module : A Python module is a file containing Python definitions and statements. A module can define functions, classes, and variables.
+
+Package : 
+1. Python modules may contain several classes, functions, variables, etc. whereas Python packages contain several modules. In simpler terms, Package in Python is a folder that contains various modules as files.
+2. python package will have __init__.py file to represent it is a package
+
+Pypi(https://pypi.org): python package index, in this you can find thousands of packages 
+openpyxl : package to use for excel
+
+Method Overloading : Python doesn't support method overloading
+
+pipfile and pipfile.lock : (youtube link : https://www.youtube.com/watch?v=74pSNpgHFGo)
+link : https://stackoverflow.com/questions/46330327/how-are-pipfile-and-pipfile-lock-used
+
+ o pip install -r requirements.txt = traditional way of installing python packaged which is dependencies
+ o pip freeze (to see the packages installed)
+ o pip install pipenv
+ o pipenv lock  (to lock the packages mentioned in Pipfile and create pipfile.lock)
+ o pipenv install -d (to install dev packages)
+ o pipenv --rm (to remove the environment already created by Pipfile)
+ o pipenv install (it can be used with requriements.txt, it will create Pipfile and pipenv.lock)
+
+ Good Explanation about return in python :
+ https://stackoverflow.com/questions/15300550/return-return-none-and-no-return-at-all
+
+Data mangling(Telugu channel) : https://www.youtube.com/watch?v=-v1XNWhFSIs
+
+Python Interview Questions : https://www.youtube.com/watch?v=yhfLd8y2Xsk 
+
+Steps to generate pip lock file :
+    Sure! Here's how you can generate a `Pipfile.lock` file that contains the specified packages and versions:
+
+    1. First, make sure you have `pipenv` installed. If not, you can install it by running `pip install pipenv`.
+    2. Next, navigate to your project directory and create a `Pipfile` by running `pipenv install`. This will create a virtual environment for your project and generate a `Pipfile`.
+    3. Open the `Pipfile` in a text editor and add the following lines under the `[packages]` section:
+    ```
+    pytest = "==3.6"
+    selenium = "==4.2"
+    ```
+    4. Save the `Pipfile` and run `pipenv lock` to generate the `Pipfile.lock` file.
+
+    The `Pipfile.lock` file will now contain the specified packages and versions. You can use `pipenv install --ignore-pipfile` to install the packages specified in the `Pipfile.lock` file.
+
+    I hope this helps! Let me know if you have any further questions.

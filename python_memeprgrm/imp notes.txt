@@ -1,0 +1,55 @@
+
+Need to explore mutable and immutable in python : https://www.geeksforgeeks.org/mutable-vs-immutable-objects-in-python/
+
+type() : to know the type of variable
+id() : to know the memory location of given variable
+
+"_" (underscore) : to get the previous output
+
+identifier : it can be a variable name, function name , class name
+
+Python has several built-in data types and classes for representing different types of data. Here are some of the commonly used built-in data types and classes in Python:
+
+    1. int: Represents integers (whole numbers).
+    2. float: Represents floating-point numbers (real numbers with a decimal point).
+    3. str: Represents strings (sequences of characters).
+    4. list: Represents lists (ordered, mutable collections of items).
+    5. tuple: Represents tuples (ordered, immutable collections of items).
+    6. dict: Represents dictionaries (unordered, key-value pairs).
+    7. set: Represents sets (unordered collections of unique items).
+    8. bool: Represents Boolean values (True or False).
+    9. NoneType: Represents the absence of a value (similar to null in other languages).
+    10. complex: Represents complex numbers (numbers with a real and imaginary part).
+    11. bytes: Represents immutable sequences of bytes.
+    12. bytearray: Represents mutable sequences of bytes.
+    13. list, tuple, dict, and set can contain elements of various data types, including other objects, and can be nested to create more complex data structures.
+    14. There are also data types and classes provided by Python modules and libraries, such as datetime for handling date and time values, re for regular expressions, and many more.
+    15. Additionally, you can create your own custom classes to represent specific data structures and objects tailored to your application's needs.
+
+Built in core python regular use modules :
+1. keyword module
+2. string module
+3. itertools module
+4. collections 
+5. random
+6. date
+7. time
+8. math
+9. array
+10. statistics module
+11. os module
+12. re module
+13. sys module
+14. heapq module
+15. operators module
+16. functools
+17. textwrap
+18. venv
+19. queue
+20. enum
+21. bisect
+22. calendar
+23. abc
+24. Modules used on string data type : string,re,difflib,textwrap,unicodedata,stringgrep, readline, rlcompleter
+25. number datatype : numbers,math,cmath, decimal, fractions,random, statistics
+26. create different datatypes :

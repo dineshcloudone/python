@@ -1,0 +1,9 @@
+Generators : These are lazy program executors.
+
+Descriptors yoututbe link : https://www.youtube.com/watch?v=vBys0SwYvCQ
+
+Playlist of different kinds (python, git, bash etc) :
+https://www.youtube.com/watch?v=qvkppppy9K8&list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY
+
+
+Generators : A Generator in Python is a function that returns an iterator using the Yield keyword
